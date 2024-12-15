@@ -1,7 +1,7 @@
 import { InitialParams } from '../utils/paramsBuilder.ts';
 
 export const defaultProps: InitialParams = {
-  appId: import.meta.env.VITE_APP_ID,
-  userId: import.meta.env.VITE_USER_ID ?? 'test',
-  accessToken: import.meta.env.VITE_ACCESS_TOKEN,
+  appId: '5D76CE69-79B6-4FFF-A91E-C15B8B264373',
+  userId: 'test',
+  accessToken: 'a116931c915239f3d4df4d394190113b33987053',
 };

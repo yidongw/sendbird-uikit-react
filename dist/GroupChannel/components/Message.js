@@ -1,0 +1,138 @@
+import { _ as __assign } from '../../chunks/bundle-HcNswZ5p.js';
+import React__default from 'react';
+import { useIIFE } from '@sendbird/uikit-tools';
+import { useSendbirdStateContext } from '../../useSendbirdStateContext.js';
+import { l as isSendableMessage, g as getSuggestedReplies } from '../../chunks/bundle-Bd-i99nk.js';
+import { i as isDisabledBecauseFrozen, a as isDisabledBecauseMuted } from '../../chunks/bundle-BB4cJn39.js';
+import { useGroupChannelContext } from '../context.js';
+import { M as MessageView } from '../../chunks/bundle-8I0oGHOc.js';
+import { FileViewer } from './FileViewer.js';
+import { RemoveMessageModal } from './RemoveMessageModal.js';
+import { T as ThreadReplySelectType } from '../../chunks/bundle-CijxkMjj.js';
+import '../../withSendbird.js';
+import '@sendbird/chat/groupChannel';
+import '../../utils/message/getOutgoingMessageState.js';
+import '../../chunks/bundle-DjLJFwD7.js';
+import '../../chunks/bundle-DB7YSrIT.js';
+import '../../chunks/bundle-DQk0aENq.js';
+import '@sendbird/chat/message';
+import '../../chunks/bundle-B91Bhfde.js';
+import '../../chunks/bundle-ja8H3E0K.js';
+import '../../chunks/bundle-0WaCg6X7.js';
+import 'react-dom';
+import '../../chunks/bundle-DhMUg-L7.js';
+import '../../chunks/bundle-dybWaw0v.js';
+import '../../chunks/bundle-DnSobLtx.js';
+import '../../ui/IconButton.js';
+import '../../ui/Button.js';
+import '../../chunks/bundle-Qkp2VIaZ.js';
+import '../../ui/Icon.js';
+import 'css-vars-ponyfill';
+import '@sendbird/chat';
+import '../../chunks/bundle-C5iY_IvV.js';
+import '@sendbird/chat/openChannel';
+import '../../chunks/bundle-zy1mnw8U.js';
+import '../../chunks/bundle-BKzcG-aC.js';
+import '../../ui/SortByRow.js';
+import '../../chunks/bundle-CZtAsa-i.js';
+import '../../chunks/bundle-CUhgRMBc.js';
+import '../../chunks/bundle-CT4PvZdn.js';
+import '../../chunks/bundle-BwmZGijR.js';
+import '../../chunks/bundle-CuavrWk1.js';
+import '../../chunks/bundle-D4JzAgen.js';
+import '../../Message/hooks/useDirtyGetMentions.js';
+import '../../ui/DateSeparator.js';
+import '../../chunks/bundle-DGMsaaNU.js';
+import '../../ui/MessageInput.js';
+import '../../chunks/bundle-lUbYBD0x.js';
+import '../../chunks/bundle-Bf0OMYby.js';
+import 'dompurify';
+import '../../chunks/bundle-DCxt9PzH.js';
+import '../../chunks/bundle-BddSUitu.js';
+import '../../chunks/bundle-DLG7S88z.js';
+import '../../chunks/bundle-BvQmfZZv.js';
+import '../../ui/MessageContent.js';
+import '../../chunks/bundle-Biuu5CVW.js';
+import '../../ui/Loader.js';
+import '../../chunks/bundle-BDE05Tho.js';
+import '../../chunks/bundle-DfmFm_nl.js';
+import '../../chunks/bundle-X8EPLaoY.js';
+import '../../ui/MessageItemReactionMenu.js';
+import '../../ui/ImageRenderer.js';
+import '../../ui/ReactionButton.js';
+import '../../chunks/bundle-B6yWIKOT.js';
+import '../../ui/EmojiReactions.js';
+import '../../ui/ReactionBadge.js';
+import '../../ui/BottomSheet.js';
+import '../../ui/UserListItem.js';
+import '../../chunks/bundle-2pbuHA3C.js';
+import '../../chunks/bundle-DkDQ1PWY.js';
+import '../../ui/MutedAvatarOverlay.js';
+import '../../ui/Checkbox.js';
+import '../../ui/UserProfile.js';
+import '../../sendbirdSelectors.js';
+import '../../ui/Tooltip.js';
+import '../../ui/TooltipWrapper.js';
+import '../../Message/context.js';
+import '../../ui/AdminMessage.js';
+import '../../ui/QuoteMessage.js';
+import '../../chunks/bundle-B_TSibjC.js';
+import '../../ui/MobileMenu.js';
+import '../../ui/ThreadReplies.js';
+import '../../chunks/bundle-C5pqGUL_.js';
+import '../../ui/OGMessageItemBody.js';
+import '../../chunks/bundle-CYbqxz_s.js';
+import '../../ui/MentionLabel.js';
+import '../../ui/LinkLabel.js';
+import '../../ui/TextMessageItemBody.js';
+import '../../ui/FileMessageItemBody.js';
+import '../../ui/TextButton.js';
+import '../../chunks/bundle-CW5sRqha.js';
+import '../../ui/FileViewer.js';
+import '../../chunks/bundle-A7zrKt0i.js';
+import '../../ui/VoiceMessageItemBody.js';
+import '../../ui/ProgressBar.js';
+import '../../VoicePlayer/useVoicePlayer.js';
+import '../../ui/PlaybackTime.js';
+import '../../ui/ThumbnailMessageItemBody.js';
+import '../../ui/UnknownMessageItemBody.js';
+import '../../ui/TemplateMessageItemBody.js';
+import '../../chunks/bundle-CvDJ0OhP.js';
+import '../../ui/FallbackTemplateMessageItemBody.tsx.js';
+import '../../ui/LoadingTemplateMessageItemBody.tsx.js';
+import '../../ui/MessageFeedbackFailedModal.js';
+import '../../ui/FeedbackIconButton.js';
+import '../../ui/MobileFeedbackMenu.js';
+import '../../ui/MessageFeedbackModal.js';
+import '../../ui/Input.js';
+import '../../chunks/bundle-Cnmz5VIU.js';
+import './SuggestedReplies.js';
+import '../../chunks/bundle-BYBFk8ow.js';
+import '../../chunks/bundle-mGA-NFf6.js';
+import '../../chunks/bundle-CCwC3Lit.js';
+import '../../chunks/bundle-BzEzK7wl.js';
+
+var Message = function (props) {
+    var _a = useSendbirdStateContext(), config = _a.config, emojiManager = _a.emojiManager;
+    var _b = useGroupChannelContext(), loading = _b.loading, currentChannel = _b.currentChannel, animatedMessageId = _b.animatedMessageId, setAnimatedMessageId = _b.setAnimatedMessageId, scrollToMessage = _b.scrollToMessage, replyType = _b.replyType, threadReplySelectType = _b.threadReplySelectType, isReactionEnabled = _b.isReactionEnabled, toggleReaction = _b.toggleReaction, nicknamesMap = _b.nicknamesMap, setQuoteMessage = _b.setQuoteMessage, renderUserMentionItem = _b.renderUserMentionItem, filterEmojiCategoryIds = _b.filterEmojiCategoryIds, onQuoteMessageClick = _b.onQuoteMessageClick, onReplyInThreadClick = _b.onReplyInThreadClick, onMessageAnimated = _b.onMessageAnimated, onBeforeDownloadFileMessage = _b.onBeforeDownloadFileMessage, messages = _b.messages, updateUserMessage = _b.updateUserMessage, sendUserMessage = _b.sendUserMessage, resendMessage = _b.resendMessage, deleteMessage = _b.deleteMessage;
+    var message = props.message;
+    var initialized = !loading && Boolean(currentChannel);
+    var shouldRenderSuggestedReplies = useIIFE(function () {
+        var _a = config.groupChannel, enableSuggestedReplies = _a.enableSuggestedReplies, showSuggestedRepliesFor = _a.showSuggestedRepliesFor;
+        // Use `allMessages[allMessages.length - 1]` instead of `currentGroupChannel.lastMessage`
+        // because lastMessage is not updated when **Bot** sends messages
+        var lastMessageInView = messages[messages.length - 1];
+        var hasUnsentMessage = isSendableMessage(lastMessageInView) && lastMessageInView.sendingStatus !== 'succeeded';
+        var showSuggestedReplies = showSuggestedRepliesFor === 'all_messages'
+            ? true
+            : message.messageId === lastMessageInView.messageId;
+        return enableSuggestedReplies && getSuggestedReplies(message).length > 0 && !hasUnsentMessage && showSuggestedReplies;
+    });
+    return (React__default.createElement(MessageView, __assign({}, props, { channel: currentChannel, emojiContainer: emojiManager.emojiContainer, editInputDisabled: !initialized
+            || isDisabledBecauseFrozen(currentChannel !== null && currentChannel !== void 0 ? currentChannel : undefined)
+            || isDisabledBecauseMuted(currentChannel !== null && currentChannel !== void 0 ? currentChannel : undefined)
+            || !config.isOnline, shouldRenderSuggestedReplies: shouldRenderSuggestedReplies, isReactionEnabled: isReactionEnabled !== null && isReactionEnabled !== void 0 ? isReactionEnabled : false, replyType: replyType !== null && replyType !== void 0 ? replyType : 'NONE', threadReplySelectType: threadReplySelectType !== null && threadReplySelectType !== void 0 ? threadReplySelectType : ThreadReplySelectType.PARENT, nicknamesMap: nicknamesMap, renderUserMentionItem: renderUserMentionItem, filterEmojiCategoryIds: filterEmojiCategoryIds, scrollToMessage: scrollToMessage, toggleReaction: toggleReaction, setQuoteMessage: setQuoteMessage, onQuoteMessageClick: onQuoteMessageClick, onReplyInThreadClick: onReplyInThreadClick, sendUserMessage: sendUserMessage, updateUserMessage: updateUserMessage, resendMessage: resendMessage, deleteMessage: deleteMessage, animatedMessageId: animatedMessageId, setAnimatedMessageId: setAnimatedMessageId, onMessageAnimated: onMessageAnimated, renderFileViewer: function (props) { return React__default.createElement(FileViewer, __assign({}, props)); }, renderRemoveMessageModal: function (props) { return React__default.createElement(RemoveMessageModal, __assign({}, props)); }, usedInLegacy: false, onBeforeDownloadFileMessage: onBeforeDownloadFileMessage })));
+};
+
+export { Message, Message as default };
+//# sourceMappingURL=Message.js.map

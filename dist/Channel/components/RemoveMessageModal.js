@@ -1,0 +1,53 @@
+import { _ as __assign } from '../../chunks/bundle-HcNswZ5p.js';
+import React__default from 'react';
+import { R as RemoveMessageModalView } from '../../chunks/bundle-CCwC3Lit.js';
+import { useChannelContext } from '../context.js';
+import '../../chunks/bundle-ja8H3E0K.js';
+import '../../chunks/bundle-Bd-i99nk.js';
+import '@sendbird/chat/groupChannel';
+import '../../utils/message/getOutgoingMessageState.js';
+import '../../chunks/bundle-DjLJFwD7.js';
+import '../../chunks/bundle-DB7YSrIT.js';
+import '../../chunks/bundle-DQk0aENq.js';
+import '../../chunks/bundle-0WaCg6X7.js';
+import 'react-dom';
+import '../../chunks/bundle-DhMUg-L7.js';
+import '../../chunks/bundle-dybWaw0v.js';
+import '../../chunks/bundle-DnSobLtx.js';
+import '../../ui/IconButton.js';
+import '../../ui/Button.js';
+import '../../chunks/bundle-Qkp2VIaZ.js';
+import '../../ui/Icon.js';
+import '@sendbird/uikit-tools';
+import '../../withSendbird.js';
+import 'css-vars-ponyfill';
+import '@sendbird/chat';
+import '../../chunks/bundle-C5iY_IvV.js';
+import '@sendbird/chat/openChannel';
+import '../../chunks/bundle-zy1mnw8U.js';
+import '../../useSendbirdStateContext.js';
+import '../../chunks/bundle-BKzcG-aC.js';
+import '../../ui/SortByRow.js';
+import '../../chunks/bundle-BzEzK7wl.js';
+import '../../chunks/bundle-B91Bhfde.js';
+import '../../chunks/bundle-CijxkMjj.js';
+import '../../chunks/bundle-D-F3KakE.js';
+import '@sendbird/chat/message';
+import '../../chunks/bundle-CuavrWk1.js';
+import '../../chunks/bundle-D4JzAgen.js';
+import '../../chunks/bundle-DDTq-6FS.js';
+import '../../chunks/bundle-zVlBKrSk.js';
+import '../../chunks/bundle-DMEhFKKv.js';
+import '../../chunks/bundle-JQDTfT_2.js';
+import '../../chunks/bundle-BwmZGijR.js';
+import '../../chunks/bundle-CZtAsa-i.js';
+import '../../chunks/bundle-CUhgRMBc.js';
+import '../../chunks/bundle-B43UOaqG.js';
+
+var RemoveMessageModal = function (props) {
+    var deleteMessage = useChannelContext().deleteMessage;
+    return React__default.createElement(RemoveMessageModalView, __assign({}, props, { deleteMessage: deleteMessage }));
+};
+
+export { RemoveMessageModal as default };
+//# sourceMappingURL=RemoveMessageModal.js.map

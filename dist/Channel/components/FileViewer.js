@@ -1,0 +1,55 @@
+import { _ as __assign } from '../../chunks/bundle-HcNswZ5p.js';
+import React__default from 'react';
+import { F as FileViewerView } from '../../chunks/bundle-mGA-NFf6.js';
+import { useChannelContext } from '../context.js';
+import 'react-dom';
+import '../../chunks/bundle-2pbuHA3C.js';
+import '../../ui/ImageRenderer.js';
+import '../../chunks/bundle-0WaCg6X7.js';
+import '../../chunks/bundle-DkDQ1PWY.js';
+import '../../ui/Icon.js';
+import '../../chunks/bundle-Qkp2VIaZ.js';
+import '../../chunks/bundle-dybWaw0v.js';
+import '../../chunks/bundle-Bd-i99nk.js';
+import '@sendbird/chat/groupChannel';
+import '../../utils/message/getOutgoingMessageState.js';
+import '../../chunks/bundle-DjLJFwD7.js';
+import '../../chunks/bundle-DB7YSrIT.js';
+import '../../chunks/bundle-DQk0aENq.js';
+import '../../chunks/bundle-ja8H3E0K.js';
+import '../../chunks/bundle-DhMUg-L7.js';
+import '../../chunks/bundle-DnSobLtx.js';
+import '../../ui/IconButton.js';
+import '../../ui/Button.js';
+import '@sendbird/uikit-tools';
+import '../../withSendbird.js';
+import 'css-vars-ponyfill';
+import '@sendbird/chat';
+import '../../chunks/bundle-C5iY_IvV.js';
+import '@sendbird/chat/openChannel';
+import '../../chunks/bundle-zy1mnw8U.js';
+import '../../useSendbirdStateContext.js';
+import '../../chunks/bundle-BKzcG-aC.js';
+import '../../ui/SortByRow.js';
+import '../../chunks/bundle-B91Bhfde.js';
+import '../../chunks/bundle-CijxkMjj.js';
+import '../../chunks/bundle-D-F3KakE.js';
+import '@sendbird/chat/message';
+import '../../chunks/bundle-CuavrWk1.js';
+import '../../chunks/bundle-D4JzAgen.js';
+import '../../chunks/bundle-DDTq-6FS.js';
+import '../../chunks/bundle-zVlBKrSk.js';
+import '../../chunks/bundle-DMEhFKKv.js';
+import '../../chunks/bundle-JQDTfT_2.js';
+import '../../chunks/bundle-BwmZGijR.js';
+import '../../chunks/bundle-CZtAsa-i.js';
+import '../../chunks/bundle-CUhgRMBc.js';
+import '../../chunks/bundle-B43UOaqG.js';
+
+var FileViewer = function (props) {
+    var deleteMessage = useChannelContext().deleteMessage;
+    return React__default.createElement(FileViewerView, __assign({}, props, { deleteMessage: deleteMessage }));
+};
+
+export { FileViewer, FileViewer as default };
+//# sourceMappingURL=FileViewer.js.map
