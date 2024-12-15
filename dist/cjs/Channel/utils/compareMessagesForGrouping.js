@@ -2,17 +2,17 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var index = require('../../chunks/bundle-DspSuA8e.js');
-var index$1 = require('../../chunks/bundle-BLoixwYr.js');
-var LocalizationContext = require('../../chunks/bundle-Cy1ruNzs.js');
-require('../../chunks/bundle-C2CwvM-u.js');
-require('../../chunks/bundle-Bdr7xlea.js');
+var index = require('../../chunks/bundle-C3e9xkw6.js');
+var index$1 = require('../../chunks/bundle-e2d_I3io.js');
+var LocalizationContext = require('../../chunks/bundle-CmBrGegh.js');
+require('../../chunks/bundle-BCJ8mayg.js');
+require('../../chunks/bundle-DRvomNLJ.js');
 require('@sendbird/chat/groupChannel');
 require('../../utils/message/getOutgoingMessageState.js');
-require('../../chunks/bundle-Dr9yFtKa.js');
-require('../../chunks/bundle-BD0wJiNh.js');
+require('../../chunks/bundle-4kwoH67w.js');
+require('../../chunks/bundle-C0tdWwa4.js');
 require('react');
-require('../../chunks/bundle-Dio8pG-T.js');
+require('../../chunks/bundle-Q9YDOzjz.js');
 
 /**
  * exported, should be backward compatible

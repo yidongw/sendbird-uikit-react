@@ -1,23 +1,23 @@
-import { c as __spreadArray } from '../chunks/bundle-HcNswZ5p.js';
+import { c as __spreadArray } from '../chunks/bundle-Ck-Lg2K3.js';
 import React__default from 'react';
-import { A as Avatar } from '../chunks/bundle-2pbuHA3C.js';
+import { A as Avatar } from '../chunks/bundle-BbICJE5Z.js';
 import Icon, { IconTypes, IconColors } from './Icon.js';
-import { L as Label, a as LabelTypography, b as LabelColors } from '../chunks/bundle-Qkp2VIaZ.js';
-import { u as useLocalization } from '../chunks/bundle-DhMUg-L7.js';
-import { f as format } from '../chunks/bundle-D4JzAgen.js';
-import { i as isToday, a as isYesterday, b as isThisYear } from '../chunks/bundle-BDE05Tho.js';
-import { i as isVoiceMessage } from '../chunks/bundle-Bd-i99nk.js';
-import { g as getMessageFirstFileUrl, b as getMessageFirstFileName } from '../chunks/bundle-B_TSibjC.js';
+import { L as Label, a as LabelTypography, b as LabelColors } from '../chunks/bundle-Di0Zwz2X.js';
+import { u as useLocalization } from '../chunks/bundle-CbLNLMef.js';
+import { f as format } from '../chunks/bundle-D4fsEPre.js';
+import { i as isToday, a as isYesterday, b as isThisYear } from '../chunks/bundle-BxmZCK6X.js';
+import { i as isVoiceMessage } from '../chunks/bundle-BL0uQSu6.js';
+import { g as getMessageFirstFileUrl, b as getMessageFirstFileName } from '../chunks/bundle-CxwGa1l3.js';
 import './ImageRenderer.js';
-import '../chunks/bundle-0WaCg6X7.js';
-import '../chunks/bundle-DkDQ1PWY.js';
-import '../chunks/bundle-dybWaw0v.js';
-import '../chunks/bundle-DB7YSrIT.js';
-import '../chunks/bundle-DfmFm_nl.js';
+import '../chunks/bundle-pQHYhigr.js';
+import '../chunks/bundle-CjhP75at.js';
+import '../chunks/bundle-B80WXNZi.js';
+import '../chunks/bundle-CnkNoe49.js';
+import '../chunks/bundle-B5oDG6vR.js';
 import '@sendbird/chat/groupChannel';
 import '../utils/message/getOutgoingMessageState.js';
-import '../chunks/bundle-DjLJFwD7.js';
-import '../chunks/bundle-DQk0aENq.js';
+import '../chunks/bundle-fwRBR_Yw.js';
+import '../chunks/bundle-DgxVBBM3.js';
 
 function getCreatedAt(_a) {
     var createdAt = _a.createdAt, locale = _a.locale, stringSet = _a.stringSet;

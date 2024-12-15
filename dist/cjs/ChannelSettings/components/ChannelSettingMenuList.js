@@ -2,40 +2,40 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var _tslib = require('../../chunks/bundle-Bdr7xlea.js');
+var _tslib = require('../../chunks/bundle-DRvomNLJ.js');
 var React = require('react');
-var ui_Label = require('../../chunks/bundle-CAR4EIKs.js');
+var ui_Label = require('../../chunks/bundle-D8-2bEdY.js');
 var ui_Icon = require('../../ui/Icon.js');
-var utils = require('../../chunks/bundle-BNuA_uqY.js');
+var utils = require('../../chunks/bundle-CIP3LaaL.js');
 var ChannelSettings_components_ChannelSettingsMenuItem = require('./ChannelSettingsMenuItem.js');
 var ChannelSettings_context = require('../context.js');
-require('../../chunks/bundle-Dio8pG-T.js');
-require('../../chunks/bundle-Ck6ikNW6.js');
+require('../../chunks/bundle-Q9YDOzjz.js');
+require('../../chunks/bundle-BYHj6UqH.js');
 require('@sendbird/chat/message');
-require('../../chunks/bundle-Cy1ruNzs.js');
+require('../../chunks/bundle-CmBrGegh.js');
 require('@sendbird/chat/groupChannel');
 require('../../useSendbirdStateContext.js');
 require('../../withSendbird.js');
-require('../../chunks/bundle-DgjptBQW.js');
+require('../../chunks/bundle-Bn25Hepq.js');
 require('@sendbird/uikit-tools');
-require('../../chunks/bundle-DZhkNDpN.js');
-require('../../chunks/bundle-BLoixwYr.js');
+require('../../chunks/bundle-DfISCDoH.js');
+require('../../chunks/bundle-e2d_I3io.js');
 require('../../utils/message/getOutgoingMessageState.js');
-require('../../chunks/bundle-Dr9yFtKa.js');
-require('../../chunks/bundle-C2CwvM-u.js');
-require('../../chunks/bundle-BD0wJiNh.js');
+require('../../chunks/bundle-4kwoH67w.js');
+require('../../chunks/bundle-BCJ8mayg.js');
+require('../../chunks/bundle-C0tdWwa4.js');
 require('react-dom');
-require('../../chunks/bundle-DrIKAEHN.js');
+require('../../chunks/bundle-CzcmYPsN.js');
 require('../../ui/IconButton.js');
 require('../../ui/Button.js');
 require('css-vars-ponyfill');
 require('@sendbird/chat');
-require('../../chunks/bundle-C1poxl5k.js');
+require('../../chunks/bundle-lGoyqUWm.js');
 require('@sendbird/chat/openChannel');
-require('../../chunks/bundle-CJM9Pdwg.js');
-require('../../chunks/bundle-BKyZTqvq.js');
+require('../../chunks/bundle-2M4zbjEc.js');
+require('../../chunks/bundle-BYSQ-mQr.js');
 require('../../ui/SortByRow.js');
-require('../../chunks/bundle-Dh0NAI0D.js');
+require('../../chunks/bundle-DrXG_ZI5.js');
 
 function _interopDefaultCompat (e) { return e && typeof e === 'object' && 'default' in e ? e : { default: e }; }
 

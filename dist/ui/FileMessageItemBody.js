@@ -1,19 +1,19 @@
-import { a as __awaiter, b as __generator } from '../chunks/bundle-HcNswZ5p.js';
+import { a as __awaiter, b as __generator } from '../chunks/bundle-Ck-Lg2K3.js';
 import React__default from 'react';
-import { L as Label, a as LabelTypography, b as LabelColors } from '../chunks/bundle-Qkp2VIaZ.js';
+import { L as Label, a as LabelTypography, b as LabelColors } from '../chunks/bundle-Di0Zwz2X.js';
 import Icon, { IconTypes, IconColors } from './Icon.js';
 import TextButton from './TextButton.js';
-import { y as getClassName, p as getUIKitFileType, t as truncateString } from '../chunks/bundle-Bd-i99nk.js';
-import { C as Colors } from '../chunks/bundle-DGMsaaNU.js';
-import { u as useMediaQueryContext } from '../chunks/bundle-DnSobLtx.js';
+import { y as getClassName, p as getUIKitFileType, t as truncateString } from '../chunks/bundle-BL0uQSu6.js';
+import { C as Colors } from '../chunks/bundle-DUTd4XYU.js';
+import { u as useMediaQueryContext } from '../chunks/bundle-Bk1oUUzJ.js';
 import { useSendbirdStateContext } from '../useSendbirdStateContext.js';
-import { o as openURL } from '../chunks/bundle-0WaCg6X7.js';
-import '../chunks/bundle-dybWaw0v.js';
+import { o as openURL } from '../chunks/bundle-pQHYhigr.js';
+import '../chunks/bundle-B80WXNZi.js';
 import '@sendbird/chat/groupChannel';
 import '../utils/message/getOutgoingMessageState.js';
-import '../chunks/bundle-DjLJFwD7.js';
-import '../chunks/bundle-DB7YSrIT.js';
-import '../chunks/bundle-DQk0aENq.js';
+import '../chunks/bundle-fwRBR_Yw.js';
+import '../chunks/bundle-CnkNoe49.js';
+import '../chunks/bundle-DgxVBBM3.js';
 import '../withSendbird.js';
 
 function FileMessageItemBody(_a) {

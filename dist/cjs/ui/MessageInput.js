@@ -1,30 +1,30 @@
 'use strict';
 
-var _tslib = require('../chunks/bundle-Bdr7xlea.js');
+var _tslib = require('../chunks/bundle-DRvomNLJ.js');
 var React = require('react');
-var _const$1 = require('../chunks/bundle-CfV7jROn.js');
-var _const = require('../chunks/bundle-CtHeiC70.js');
+var _const$1 = require('../chunks/bundle-CsHnjhet.js');
+var _const = require('../chunks/bundle-CxDaflMi.js');
 var ui_IconButton = require('./IconButton.js');
 var ui_Button = require('./Button.js');
-var ui_MessageInput_hooks_usePaste = require('../chunks/bundle-CCtdwkHe.js');
+var ui_MessageInput_hooks_usePaste = require('../chunks/bundle-C9DxbvFZ.js');
 var ui_Icon = require('./Icon.js');
-var ui_Label = require('../chunks/bundle-CAR4EIKs.js');
-var LocalizationContext = require('../chunks/bundle-Cy1ruNzs.js');
+var ui_Label = require('../chunks/bundle-D8-2bEdY.js');
+var LocalizationContext = require('../chunks/bundle-CmBrGegh.js');
 var useSendbirdStateContext = require('../useSendbirdStateContext.js');
-var index = require('../chunks/bundle-BLoixwYr.js');
-var tokenize = require('../chunks/bundle-BIkitklZ.js');
-var utils = require('../chunks/bundle-Ck6ikNW6.js');
-var browser = require('../chunks/bundle-Dr9yFtKa.js');
+var index = require('../chunks/bundle-e2d_I3io.js');
+var tokenize = require('../chunks/bundle-CZ8XCEGd.js');
+var utils = require('../chunks/bundle-BYHj6UqH.js');
+var browser = require('../chunks/bundle-4kwoH67w.js');
 require('dompurify');
-require('../chunks/bundle-By5v4zYf.js');
-require('../chunks/bundle-DobO_BAb.js');
-require('../chunks/bundle-BaSZqehS.js');
-require('../chunks/bundle-Dio8pG-T.js');
+require('../chunks/bundle-DhOkJsb_.js');
+require('../chunks/bundle-BHlqknCd.js');
+require('../chunks/bundle-tu3X3qzD.js');
+require('../chunks/bundle-Q9YDOzjz.js');
 require('../withSendbird.js');
 require('@sendbird/chat/groupChannel');
 require('../utils/message/getOutgoingMessageState.js');
-require('../chunks/bundle-C2CwvM-u.js');
-require('../chunks/bundle-BD0wJiNh.js');
+require('../chunks/bundle-BCJ8mayg.js');
+require('../chunks/bundle-C0tdWwa4.js');
 
 function _interopDefaultCompat (e) { return e && typeof e === 'object' && 'default' in e ? e : { default: e }; }
 

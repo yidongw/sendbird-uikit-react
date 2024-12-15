@@ -1,28 +1,28 @@
-import { _ as __assign, c as __spreadArray } from '../chunks/bundle-HcNswZ5p.js';
+import { _ as __assign, c as __spreadArray } from '../chunks/bundle-Ck-Lg2K3.js';
 import React__default, { useRef, useState, useEffect, useCallback } from 'react';
-import { M as MessageInputKeys, N as NodeTypes } from '../chunks/bundle-lUbYBD0x.js';
-import { a as USER_MENTION_TEMP_CHAR } from '../chunks/bundle-CijxkMjj.js';
+import { M as MessageInputKeys, N as NodeTypes } from '../chunks/bundle-nLX43pTB.js';
+import { a as USER_MENTION_TEMP_CHAR } from '../chunks/bundle-DAH20nmQ.js';
 import IconButton from './IconButton.js';
 import Button, { ButtonTypes, ButtonSizes } from './Button.js';
-import { r as renderToString, s as sanitizeString, n as nodeListToArray, u as usePaste, i as isChannelTypeSupportsMultipleFilesMessage, e as extractTextAndMentions } from '../chunks/bundle-Bf0OMYby.js';
+import { r as renderToString, s as sanitizeString, n as nodeListToArray, u as usePaste, i as isChannelTypeSupportsMultipleFilesMessage, e as extractTextAndMentions } from '../chunks/bundle-Cs72eVze.js';
 import Icon, { IconTypes, IconColors } from './Icon.js';
-import { L as Label, a as LabelTypography, b as LabelColors } from '../chunks/bundle-Qkp2VIaZ.js';
-import { u as useLocalization } from '../chunks/bundle-DhMUg-L7.js';
+import { L as Label, a as LabelTypography, b as LabelColors } from '../chunks/bundle-Di0Zwz2X.js';
+import { u as useLocalization } from '../chunks/bundle-CbLNLMef.js';
 import { useSendbirdStateContext } from '../useSendbirdStateContext.js';
-import { K, H as arrayEqual, I as getMimeTypesUIKitAccepts } from '../chunks/bundle-Bd-i99nk.js';
-import { t as tokenizeMessage, T as TOKEN_TYPES, U as USER_MENTION_PREFIX } from '../chunks/bundle-BvQmfZZv.js';
-import { c as classnames } from '../chunks/bundle-0WaCg6X7.js';
-import { i as isMobileIOS } from '../chunks/bundle-DjLJFwD7.js';
+import { K, H as arrayEqual, I as getMimeTypesUIKitAccepts } from '../chunks/bundle-BL0uQSu6.js';
+import { t as tokenizeMessage, T as TOKEN_TYPES, U as USER_MENTION_PREFIX } from '../chunks/bundle-BS8ALexW.js';
+import { c as classnames } from '../chunks/bundle-pQHYhigr.js';
+import { i as isMobileIOS } from '../chunks/bundle-fwRBR_Yw.js';
 import 'dompurify';
-import '../chunks/bundle-DCxt9PzH.js';
-import '../chunks/bundle-BddSUitu.js';
-import '../chunks/bundle-DLG7S88z.js';
-import '../chunks/bundle-dybWaw0v.js';
+import '../chunks/bundle-D6pm-XK9.js';
+import '../chunks/bundle-DjodzqAP.js';
+import '../chunks/bundle-oU_AYCPg.js';
+import '../chunks/bundle-B80WXNZi.js';
 import '../withSendbird.js';
 import '@sendbird/chat/groupChannel';
 import '../utils/message/getOutgoingMessageState.js';
-import '../chunks/bundle-DB7YSrIT.js';
-import '../chunks/bundle-DQk0aENq.js';
+import '../chunks/bundle-CnkNoe49.js';
+import '../chunks/bundle-DgxVBBM3.js';
 
 /**
  * FIXME:

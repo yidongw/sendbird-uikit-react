@@ -2,16 +2,16 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var _tslib = require('../chunks/bundle-Bdr7xlea.js');
+var _tslib = require('../chunks/bundle-DRvomNLJ.js');
 var React = require('react');
-var ui_Label = require('../chunks/bundle-CAR4EIKs.js');
-var MediaQueryContext = require('../chunks/bundle-DrIKAEHN.js');
+var ui_Label = require('../chunks/bundle-D8-2bEdY.js');
+var MediaQueryContext = require('../chunks/bundle-CzcmYPsN.js');
 var ui_TextButton = require('./TextButton.js');
 var ui_Icon = require('./Icon.js');
 var ui_IconButton = require('./IconButton.js');
-var utils = require('../chunks/bundle-Ck6ikNW6.js');
-require('../chunks/bundle-Dio8pG-T.js');
-require('../chunks/bundle-CLzI6bbe.js');
+var utils = require('../chunks/bundle-BYHj6UqH.js');
+require('../chunks/bundle-Q9YDOzjz.js');
+require('../chunks/bundle-LSLwWEwG.js');
 
 function _interopDefaultCompat (e) { return e && typeof e === 'object' && 'default' in e ? e : { default: e }; }
 
@@ -30,7 +30,7 @@ var Header = function (_a) {
     return (React__default.default.createElement("div", { className: utils.classnames('sendbird-ui-header', className), "data-testid": "sendbird-ui-header" },
         renderLeft ? (React__default.default.createElement("div", { className: utils.classnames('sendbird-ui-header__left', isMobile ? 'sendbird-ui-header--is-mobile' : 'sendbird-ui-header--is-desktop') }, renderLeft === null || renderLeft === void 0 ? void 0 : renderLeft())) : null,
         React__default.default.createElement("div", { className: "sendbird-ui-header__middle" }, renderMiddle === null || renderMiddle === void 0 ? void 0 : renderMiddle()),
-        renderRight ? (React__default.default.createElement("div", { className: utils.classnames('sendbird-ui-header__right', isMobile ? 'sendbird-ui-header--is-mobile' : 'sendbird-ui-header--is-desktop') }, renderRight === null || renderRight === void 0 ? void 0 : renderRight())) : null));
+        renderRight ? null : null));
 };
 var Title = function (_a) {
     var title = _a.title, subtitle = _a.subtitle, onClickSubtitle = _a.onClickSubtitle;

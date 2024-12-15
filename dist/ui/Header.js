@@ -1,13 +1,13 @@
-import { _ as __assign } from '../chunks/bundle-HcNswZ5p.js';
+import { _ as __assign } from '../chunks/bundle-Ck-Lg2K3.js';
 import React__default from 'react';
-import { L as Label, a as LabelTypography, b as LabelColors } from '../chunks/bundle-Qkp2VIaZ.js';
-import { u as useMediaQueryContext } from '../chunks/bundle-DnSobLtx.js';
+import { L as Label, a as LabelTypography, b as LabelColors } from '../chunks/bundle-Di0Zwz2X.js';
+import { u as useMediaQueryContext } from '../chunks/bundle-Bk1oUUzJ.js';
 import TextButton from './TextButton.js';
 import Icon$1 from './Icon.js';
 import IconButton$1 from './IconButton.js';
-import { c as classnames, n as noop } from '../chunks/bundle-0WaCg6X7.js';
-import '../chunks/bundle-dybWaw0v.js';
-import '../chunks/bundle-DGMsaaNU.js';
+import { c as classnames, n as noop } from '../chunks/bundle-pQHYhigr.js';
+import '../chunks/bundle-B80WXNZi.js';
+import '../chunks/bundle-DUTd4XYU.js';
 
 var Header = function (_a) {
     var _b;
@@ -22,7 +22,7 @@ var Header = function (_a) {
     return (React__default.createElement("div", { className: classnames('sendbird-ui-header', className), "data-testid": "sendbird-ui-header" },
         renderLeft ? (React__default.createElement("div", { className: classnames('sendbird-ui-header__left', isMobile ? 'sendbird-ui-header--is-mobile' : 'sendbird-ui-header--is-desktop') }, renderLeft === null || renderLeft === void 0 ? void 0 : renderLeft())) : null,
         React__default.createElement("div", { className: "sendbird-ui-header__middle" }, renderMiddle === null || renderMiddle === void 0 ? void 0 : renderMiddle()),
-        renderRight ? (React__default.createElement("div", { className: classnames('sendbird-ui-header__right', isMobile ? 'sendbird-ui-header--is-mobile' : 'sendbird-ui-header--is-desktop') }, renderRight === null || renderRight === void 0 ? void 0 : renderRight())) : null));
+        renderRight ? null : null));
 };
 var Title = function (_a) {
     var title = _a.title, subtitle = _a.subtitle, onClickSubtitle = _a.onClickSubtitle;

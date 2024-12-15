@@ -3,11 +3,11 @@
 require('react');
 require('../sendbirdSelectors.js');
 require('../useSendbirdStateContext.js');
-var CreateChannel_context = require('../chunks/bundle-C2pGgDQd.js');
-require('../chunks/bundle-C6Q6BfQY.js');
-require('../chunks/bundle-Ck6ikNW6.js');
+var CreateChannel_context = require('../chunks/bundle-BNYkSvfJ.js');
+require('../chunks/bundle-Dcn1Gf-8.js');
+require('../chunks/bundle-BYHj6UqH.js');
 require('../withSendbird.js');
-require('../chunks/bundle-Bdr7xlea.js');
+require('../chunks/bundle-DRvomNLJ.js');
 
 
 

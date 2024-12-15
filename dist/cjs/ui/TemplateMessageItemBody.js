@@ -2,25 +2,25 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var _tslib = require('../chunks/bundle-Bdr7xlea.js');
+var _tslib = require('../chunks/bundle-DRvomNLJ.js');
 var React = require('react');
-var index = require('../chunks/bundle-BLoixwYr.js');
-var ui_MessageTemplate = require('../chunks/bundle-Dd_liLM9.js');
+var index = require('../chunks/bundle-e2d_I3io.js');
+var ui_MessageTemplate = require('../chunks/bundle-TKyDCiE_.js');
 var useSendbirdStateContext = require('../useSendbirdStateContext.js');
 var ui_FallbackTemplateMessageItemBody_tsx = require('./FallbackTemplateMessageItemBody.tsx.js');
 var ui_LoadingTemplateMessageItemBody_tsx = require('./LoadingTemplateMessageItemBody.tsx.js');
-var consts = require('../chunks/bundle-BD0wJiNh.js');
+var consts = require('../chunks/bundle-C0tdWwa4.js');
 require('@sendbird/chat/groupChannel');
 require('../utils/message/getOutgoingMessageState.js');
-require('../chunks/bundle-Dr9yFtKa.js');
-require('../chunks/bundle-C2CwvM-u.js');
+require('../chunks/bundle-4kwoH67w.js');
+require('../chunks/bundle-BCJ8mayg.js');
 require('../withSendbird.js');
-require('../chunks/bundle-Cy1ruNzs.js');
-require('../chunks/bundle-Dio8pG-T.js');
-require('../chunks/bundle-CAR4EIKs.js');
+require('../chunks/bundle-CmBrGegh.js');
+require('../chunks/bundle-Q9YDOzjz.js');
+require('../chunks/bundle-D8-2bEdY.js');
 require('./Loader.js');
 require('./Icon.js');
-require('../chunks/bundle-Ck6ikNW6.js');
+require('../chunks/bundle-BYHj6UqH.js');
 
 function _interopDefaultCompat (e) { return e && typeof e === 'object' && 'default' in e ? e : { default: e }; }
 

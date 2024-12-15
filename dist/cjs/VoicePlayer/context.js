@@ -1,11 +1,11 @@
 'use strict';
 
 require('react');
-var VoicePlayer_context = require('../chunks/bundle-CJM9Pdwg.js');
-require('../chunks/bundle-BD0wJiNh.js');
+var VoicePlayer_context = require('../chunks/bundle-2M4zbjEc.js');
+require('../chunks/bundle-C0tdWwa4.js');
 require('../useSendbirdStateContext.js');
-require('../chunks/bundle-Bdr7xlea.js');
-require('../chunks/bundle-Dr9yFtKa.js');
+require('../chunks/bundle-DRvomNLJ.js');
+require('../chunks/bundle-4kwoH67w.js');
 require('../withSendbird.js');
 
 

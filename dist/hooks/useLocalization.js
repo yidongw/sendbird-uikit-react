@@ -1,7 +1,7 @@
-import { u as useLocalization } from '../chunks/bundle-DhMUg-L7.js';
-import '../chunks/bundle-HcNswZ5p.js';
+import { u as useLocalization } from '../chunks/bundle-CbLNLMef.js';
+import '../chunks/bundle-Ck-Lg2K3.js';
 import 'react';
-import '../chunks/bundle-dybWaw0v.js';
+import '../chunks/bundle-B80WXNZi.js';
 
 /**
  * This file is only for re-exporting the `useLocalization` hook.

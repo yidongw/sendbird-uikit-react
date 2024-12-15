@@ -1,14 +1,14 @@
-import { f as format } from '../../chunks/bundle-D4JzAgen.js';
-import { b as isReadMessage } from '../../chunks/bundle-Bd-i99nk.js';
-import { u as useLocalization } from '../../chunks/bundle-DhMUg-L7.js';
-import '../../chunks/bundle-DB7YSrIT.js';
-import '../../chunks/bundle-HcNswZ5p.js';
+import { f as format } from '../../chunks/bundle-D4fsEPre.js';
+import { b as isReadMessage } from '../../chunks/bundle-BL0uQSu6.js';
+import { u as useLocalization } from '../../chunks/bundle-CbLNLMef.js';
+import '../../chunks/bundle-CnkNoe49.js';
+import '../../chunks/bundle-Ck-Lg2K3.js';
 import '@sendbird/chat/groupChannel';
 import '../../utils/message/getOutgoingMessageState.js';
-import '../../chunks/bundle-DjLJFwD7.js';
-import '../../chunks/bundle-DQk0aENq.js';
+import '../../chunks/bundle-fwRBR_Yw.js';
+import '../../chunks/bundle-DgxVBBM3.js';
 import 'react';
-import '../../chunks/bundle-dybWaw0v.js';
+import '../../chunks/bundle-B80WXNZi.js';
 
 /**
  * exported, should be backward compatible

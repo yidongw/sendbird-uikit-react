@@ -1,12 +1,12 @@
 import React__default from 'react';
-import { A as Avatar } from '../../chunks/bundle-2pbuHA3C.js';
+import { A as Avatar } from '../../chunks/bundle-BbICJE5Z.js';
 import Icon, { IconTypes, IconColors } from '../../ui/Icon.js';
-import { L as Label, a as LabelTypography, b as LabelColors } from '../../chunks/bundle-Qkp2VIaZ.js';
-import { c as classnames } from '../../chunks/bundle-0WaCg6X7.js';
-import '../../chunks/bundle-HcNswZ5p.js';
+import { L as Label, a as LabelTypography, b as LabelColors } from '../../chunks/bundle-Di0Zwz2X.js';
+import { c as classnames } from '../../chunks/bundle-pQHYhigr.js';
+import '../../chunks/bundle-Ck-Lg2K3.js';
 import '../../ui/ImageRenderer.js';
-import '../../chunks/bundle-DkDQ1PWY.js';
-import '../../chunks/bundle-dybWaw0v.js';
+import '../../chunks/bundle-CjhP75at.js';
+import '../../chunks/bundle-B80WXNZi.js';
 
 function OpenChannelPreview(_a) {
     var className = _a.className, isSelected = _a.isSelected, channel = _a.channel, onClick = _a.onClick;

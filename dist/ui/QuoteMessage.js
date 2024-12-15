@@ -1,18 +1,18 @@
 import React__default, { useContext, useState } from 'react';
 import Icon, { IconTypes, IconColors } from './Icon.js';
-import { L as Label, a as LabelTypography, b as LabelColors } from '../chunks/bundle-Qkp2VIaZ.js';
+import { L as Label, a as LabelTypography, b as LabelColors } from '../chunks/bundle-Di0Zwz2X.js';
 import ImageRenderer from './ImageRenderer.js';
-import { L as LocalizationContext } from '../chunks/bundle-DhMUg-L7.js';
-import { z as getUIKitFileTypes, y as getClassName, m as isUserMessage, i as isVoiceMessage, q as isThumbnailMessage, d as isMultipleFilesMessage, j as isVideo, A as isGif, n as getUIKitMessageType, U as UIKitMessageTypes, p as getUIKitFileType, t as truncateString } from '../chunks/bundle-Bd-i99nk.js';
-import { g as getMessageFirstFileUrl, a as getMessageFirstFileType, b as getMessageFirstFileName } from '../chunks/bundle-B_TSibjC.js';
-import '../chunks/bundle-HcNswZ5p.js';
-import '../chunks/bundle-0WaCg6X7.js';
-import '../chunks/bundle-dybWaw0v.js';
+import { L as LocalizationContext } from '../chunks/bundle-CbLNLMef.js';
+import { z as getUIKitFileTypes, y as getClassName, m as isUserMessage, i as isVoiceMessage, q as isThumbnailMessage, d as isMultipleFilesMessage, j as isVideo, A as isGif, n as getUIKitMessageType, U as UIKitMessageTypes, p as getUIKitFileType, t as truncateString } from '../chunks/bundle-BL0uQSu6.js';
+import { g as getMessageFirstFileUrl, a as getMessageFirstFileType, b as getMessageFirstFileName } from '../chunks/bundle-CxwGa1l3.js';
+import '../chunks/bundle-Ck-Lg2K3.js';
+import '../chunks/bundle-pQHYhigr.js';
+import '../chunks/bundle-B80WXNZi.js';
 import '@sendbird/chat/groupChannel';
 import '../utils/message/getOutgoingMessageState.js';
-import '../chunks/bundle-DjLJFwD7.js';
-import '../chunks/bundle-DB7YSrIT.js';
-import '../chunks/bundle-DQk0aENq.js';
+import '../chunks/bundle-fwRBR_Yw.js';
+import '../chunks/bundle-CnkNoe49.js';
+import '../chunks/bundle-DgxVBBM3.js';
 
 function QuoteMessage(_a) {
     var _b;

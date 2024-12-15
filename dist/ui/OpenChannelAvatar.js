@@ -1,13 +1,13 @@
 import React__default, { useContext, useMemo } from 'react';
-import { A as Avatar } from '../chunks/bundle-2pbuHA3C.js';
-import { L as LocalizationContext } from '../chunks/bundle-DhMUg-L7.js';
-import { b as getOpenChannelAvatar } from '../chunks/bundle-AE2zORxE.js';
-import '../chunks/bundle-HcNswZ5p.js';
+import { A as Avatar } from '../chunks/bundle-BbICJE5Z.js';
+import { L as LocalizationContext } from '../chunks/bundle-CbLNLMef.js';
+import { b as getOpenChannelAvatar } from '../chunks/bundle-Bi8yp0Ws.js';
+import '../chunks/bundle-Ck-Lg2K3.js';
 import './ImageRenderer.js';
-import '../chunks/bundle-0WaCg6X7.js';
-import '../chunks/bundle-DkDQ1PWY.js';
+import '../chunks/bundle-pQHYhigr.js';
+import '../chunks/bundle-CjhP75at.js';
 import './Icon.js';
-import '../chunks/bundle-dybWaw0v.js';
+import '../chunks/bundle-B80WXNZi.js';
 
 function ChannelAvatar(_a) {
     var channel = _a.channel, theme = _a.theme, _b = _a.height, height = _b === void 0 ? 56 : _b, _c = _a.width, width = _c === void 0 ? 56 : _c;

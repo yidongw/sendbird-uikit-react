@@ -1,18 +1,18 @@
 'use strict';
 
-var index = require('../../chunks/bundle-Cc6_UMK4.js');
+var index = require('../../chunks/bundle-BayL2H8_.js');
 var Channel_utils_compareMessagesForGrouping = require('./compareMessagesForGrouping.js');
-require('../../chunks/bundle-C2CwvM-u.js');
-require('../../chunks/bundle-DspSuA8e.js');
-require('../../chunks/bundle-Cy1ruNzs.js');
-require('../../chunks/bundle-Bdr7xlea.js');
+require('../../chunks/bundle-BCJ8mayg.js');
+require('../../chunks/bundle-C3e9xkw6.js');
+require('../../chunks/bundle-CmBrGegh.js');
+require('../../chunks/bundle-DRvomNLJ.js');
 require('react');
-require('../../chunks/bundle-Dio8pG-T.js');
-require('../../chunks/bundle-BLoixwYr.js');
+require('../../chunks/bundle-Q9YDOzjz.js');
+require('../../chunks/bundle-e2d_I3io.js');
 require('@sendbird/chat/groupChannel');
 require('../../utils/message/getOutgoingMessageState.js');
-require('../../chunks/bundle-Dr9yFtKa.js');
-require('../../chunks/bundle-BD0wJiNh.js');
+require('../../chunks/bundle-4kwoH67w.js');
+require('../../chunks/bundle-C0tdWwa4.js');
 
 /**
  * exported, should be backward compatible

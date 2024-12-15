@@ -1,6 +1,6 @@
 import React__default, { useEffect, useCallback, useState, useReducer, useRef } from 'react';
 import { useSendbirdStateContext } from '../useSendbirdStateContext.js';
-import { _ as __assign, c as __spreadArray } from '../chunks/bundle-HcNswZ5p.js';
+import { _ as __assign, c as __spreadArray } from '../chunks/bundle-Ck-Lg2K3.js';
 import '../withSendbird.js';
 
 var GET_SEARCHED_MESSAGES = 'GET_SEARCHED_MESSAGES';

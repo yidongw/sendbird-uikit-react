@@ -3,7 +3,7 @@
 var React = require('react');
 var useSendbirdStateContext = require('../useSendbirdStateContext.js');
 require('../withSendbird.js');
-require('../chunks/bundle-Bdr7xlea.js');
+require('../chunks/bundle-DRvomNLJ.js');
 
 function _interopDefaultCompat (e) { return e && typeof e === 'object' && 'default' in e ? e : { default: e }; }
 

@@ -2,8 +2,8 @@
 
 var React = require('react');
 var ui_Icon = require('./Icon.js');
-require('../chunks/bundle-Bdr7xlea.js');
-require('../chunks/bundle-Ck6ikNW6.js');
+require('../chunks/bundle-DRvomNLJ.js');
+require('../chunks/bundle-BYHj6UqH.js');
 
 function _interopDefaultCompat (e) { return e && typeof e === 'object' && 'default' in e ? e : { default: e }; }
 

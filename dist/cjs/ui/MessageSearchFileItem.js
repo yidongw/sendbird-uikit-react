@@ -1,25 +1,25 @@
 'use strict';
 
-var _tslib = require('../chunks/bundle-Bdr7xlea.js');
+var _tslib = require('../chunks/bundle-DRvomNLJ.js');
 var React = require('react');
-var ui_Avatar = require('../chunks/bundle-C8wv9DWs.js');
+var ui_Avatar = require('../chunks/bundle-Dmsb_oex.js');
 var ui_Icon = require('./Icon.js');
-var ui_Label = require('../chunks/bundle-CAR4EIKs.js');
-var LocalizationContext = require('../chunks/bundle-Cy1ruNzs.js');
-var index$1 = require('../chunks/bundle-DspSuA8e.js');
-var index = require('../chunks/bundle-f7s_1xF4.js');
-var index$2 = require('../chunks/bundle-BLoixwYr.js');
-var utils = require('../chunks/bundle-DEjC6RIv.js');
+var ui_Label = require('../chunks/bundle-D8-2bEdY.js');
+var LocalizationContext = require('../chunks/bundle-CmBrGegh.js');
+var index$1 = require('../chunks/bundle-C3e9xkw6.js');
+var index = require('../chunks/bundle-DSQevcAL.js');
+var index$2 = require('../chunks/bundle-e2d_I3io.js');
+var utils = require('../chunks/bundle-CMe3c_v7.js');
 require('./ImageRenderer.js');
-require('../chunks/bundle-Ck6ikNW6.js');
-require('../chunks/bundle-B4PTJ_bJ.js');
-require('../chunks/bundle-Dio8pG-T.js');
-require('../chunks/bundle-C2CwvM-u.js');
-require('../chunks/bundle-Cc6_UMK4.js');
+require('../chunks/bundle-BYHj6UqH.js');
+require('../chunks/bundle-BvFqbvri.js');
+require('../chunks/bundle-Q9YDOzjz.js');
+require('../chunks/bundle-BCJ8mayg.js');
+require('../chunks/bundle-BayL2H8_.js');
 require('@sendbird/chat/groupChannel');
 require('../utils/message/getOutgoingMessageState.js');
-require('../chunks/bundle-Dr9yFtKa.js');
-require('../chunks/bundle-BD0wJiNh.js');
+require('../chunks/bundle-4kwoH67w.js');
+require('../chunks/bundle-C0tdWwa4.js');
 
 function _interopDefaultCompat (e) { return e && typeof e === 'object' && 'default' in e ? e : { default: e }; }
 

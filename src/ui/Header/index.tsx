@@ -52,14 +52,7 @@ export const Header = ({
         {renderMiddle?.()}
       </div>
       {
-        renderRight ? (
-          <div className={classnames(
-            'sendbird-ui-header__right',
-            isMobile ? 'sendbird-ui-header--is-mobile' : 'sendbird-ui-header--is-desktop',
-          )}>
-            {renderRight?.()}
-          </div>
-        ) : null
+        renderRight ? null : null
       }
     </div>
   );

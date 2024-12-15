@@ -1,8 +1,8 @@
 import React__default from 'react';
 import Loader from './Loader.js';
 import Icon, { IconTypes, IconColors } from './Icon.js';
-import { c as classnames } from '../chunks/bundle-0WaCg6X7.js';
-import '../chunks/bundle-HcNswZ5p.js';
+import { c as classnames } from '../chunks/bundle-pQHYhigr.js';
+import '../chunks/bundle-Ck-Lg2K3.js';
 
 var TEMPLATE_LOADING_SPINNER_SIZE = '40px';
 function LoadingTemplateMessageItemBody(_a) {
